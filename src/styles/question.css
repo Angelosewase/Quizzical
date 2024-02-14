@@ -1,0 +1,33 @@
+.QuestionMainDiv{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    padding: 10px;
+    margin: auto;
+}
+.QuestionDiv{
+    font-size: 17px;
+    font-family: 'inter',sans-serif;
+    color: #4D5B9E;
+
+}
+
+.answersContainer{
+    display: flex;
+    align-items: center;
+    color: #4D5B9E;
+}
+.answersContainer button{
+    font-family: 'inter',sans-serif;
+    padding: 15px 50px;
+    font-size: 15px;
+    border-radius: 8px;
+    color: #4D5B9E;
+    border-color: #4a5489;
+    margin-right: 20px;
+}
+/* .hr{
+   border: none;
+   height: 2px;
+   background-color: rgb(51, 47, 47);
+} */
