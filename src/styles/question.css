@@ -30,4 +30,24 @@
    border: none;
    height: 2px;
    background-color: rgb(51, 47, 47);
-} */
+}*/
+
+.hr{
+   
+    height: 1px;
+    border: none;
+    background-color: gray;
+    width: 100%;
+    margin-bottom: 10PX;
+}
+.correct{
+    background-color:#94D7A2;
+    color: #293264;
+    border: none;
+}
+.incorrect{
+    background-color: #F8BCBC;
+    color: #293264;
+    border: none;
+}
+

@@ -1,5 +1,5 @@
 import React from "react";
-import Home from "./pages/introPage";
+// import Home from "./pages/introPage";
 import QuestionPage from "./pages/QuestionsPage";
 
 function App(){
