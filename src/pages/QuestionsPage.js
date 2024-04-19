@@ -1,6 +1,7 @@
 import React from "react";
 import Question from "../components/question";
 import "../styles/questionPage.css";
+import { Link } from "react-router-dom";
 
 function QuestionPage() {
   const [data, setData] = React.useState([]);
@@ -68,7 +69,7 @@ function QuestionPage() {
             {...question}
             correctAnswer={question.correct_answer}
             click = {mark}
-             restart ={restart}
+            restart ={restart}
         />
       </div>
     );
@@ -88,6 +89,7 @@ function QuestionPage() {
           <h1 className="resultsParagraph">you have got {marks}/10 correct answer{marks >0 ? "s": ""}</h1>
           <button className="tryAgain" onClick={replay}>playAgain</button>
         </div>}
+        <Link to={"/"} className="link"> <button className="backbutton">back to home</button></Link>  
     </>
   );
 }
